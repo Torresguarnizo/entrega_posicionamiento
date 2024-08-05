@@ -68,4 +68,5 @@ header {
   position: relative;
   text-align: center;
   top: 15px;
+  z-index: 0;
 }
