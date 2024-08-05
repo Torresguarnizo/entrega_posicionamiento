@@ -1,0 +1,71 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  max-width: 100%;
+  margin-top: 80px;
+  background-color: #161c18;
+  background-image: url('https://www.transparenttextures.com/patterns/45-degree-fabric-light.png');
+}
+header {
+  height: 70px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding-top: 5px;
+  position: fixed;
+  background-color: rgb(230, 233, 235, 1.5);
+  color: rgba(24, 24, 24, 0.6);
+  z-index: 3;
+  font-family: 'montserrat';
+}
+.content {
+  border-style: dotted;
+  border-color: #4adf71;
+  padding: 5px;
+}
+.sidebar {
+  border-style: dotted;
+  border-color: #4adf71;
+}
+.lista {
+  border-style: dotted;
+  border-color: #4adf71;
+  width: 150px;
+  margin: 20px;
+  position: relative;
+  padding-left: 25px;
+  left: 70%;
+  padding: 20px;
+}
+.lista ul {
+  list-style-position: inside;
+}
+.features {
+  border-style: dotted;
+  border-color: #4adf71;
+  text-align: center;
+  padding: 20px;
+}
+.rectangulo-vacio {
+  border-style: dotted;
+  border-color: #4adf71;
+  height: 200px;
+}
+.footer {
+  border-style: dotted;
+  border-color: #4adf71;
+  height: 60px;
+  margin-bottom: 20px;
+}
+.footer > p {
+  position: relative;
+  text-align: center;
+  top: 15px;
+}
